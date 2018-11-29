@@ -1,0 +1,13 @@
+/* para criação de uma classe css deve ser iniciado o nome da classe com um ponto
+Casso um elemento deve receber uma configueração, podemos setar direto no elemanto.
+Ex: como a cor de fundo "será sempre" da mesma cor (nesse caso, pois só tem uma pagina) poderemos setar da seguinte forma
+bady{
+background-color: #16a085;
+}
+verifgicar que como foi setado um efeito para um elemanto, o mesmo não tem ponto no inicio do nome*/
+.cor-fundo{
+  background-color: #16a085;
+}
+
+/* site para paletas de cores:
+https://flatuicolors.com/ */
