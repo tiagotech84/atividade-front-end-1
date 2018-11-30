@@ -10,6 +10,7 @@ verifgicar que como foi setado um efeito para um elemanto, o mesmo não tem pont
 }
 .intro{
   color: white;
+  font-family: 'Kaushan Script', cursive;
   /* alinhar texto ao centro */
   text-align: center;
   margin-top: 7%;
@@ -25,5 +26,11 @@ pode fazer da seguinte forma: usar o mesmo nome da classe seguido de espaço e o
   max-height: 20%;
 }
 
-/* site para paletas de cores:
-https://flatuicolors.com/ */
+/* remover os pontos da lista */
+.lista-linha {
+  padding-left: 0;
+  list-style: none;
+}
+.lista-linha li{
+  display: inline-block;
+}

@@ -1,0 +1,22 @@
+enviar projeto para o git
+
+aplicação: git bash
+localizar o diretorio do projeto (semelhante ao ms-dos)
+
+git status - verifica alterações no projeto
+GIT ADD . - Adciona os arquivos para ser enviado para a plataforma
+git commit -m "" - dentro das aspas insere comentario no envio
+git push origin master - envia o aquivo para o repositorio no git (master é o local de onde o aquivo está)
+
+
+https://analytics.google.com/analytics/web/
+
+/* site para paletas de cores:
+https://flatuicolors.com/
+   site par icones:
+https://fontawesome.com/
+  site para fontes:
+https://fonts.google.com/
+  Analizar o site:
+https://analytics.google.com/analytics/web/
+*/

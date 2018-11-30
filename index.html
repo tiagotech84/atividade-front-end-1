@@ -9,7 +9,26 @@
     <title>Tiago Oliveira</title>
     <!-- Linkar o arquivo css criado -->
     <link rel="stylesheet" href="style.css">
+    <!-- css dos icones do contato -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- css da fonte Google -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <!-- Icone da aba -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+
+
   </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130198803-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-130198803-1');
+</script>
+
   <!-- aplicando efeito css (cor de fundo) em toda pagina visivel -->
   <body class="cor-fundo">
     <header class="intro">
@@ -23,12 +42,14 @@
 
       <h4>Contatos:</h4>
       <!-- Criar uma lista -->
-        <ul>
+        <ul class="lista-linha">
           <!-- Sinalizar elementos da lista com pontos -->
-          <li>Telefone: 71 99157-6106</li>
-          <li>E-mail: tiagotech84@gmail.com</li>
+          <li><i class="fab fa-whatsapp"></i> 71 99157-6106</li>
+          <li>|</li>
+          <li><i class="far fa-envelope"></i></i></i> tiagotech84@gmail.com</li>
+          <li>|</li>
       <!-- O termo target="_blank" significa que o link será aberto em outra aba no navegador -->
-          <li>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/tiago-oliveira-366776a3/">clique aqui</a></li>
+          <li><i class="fab fa-linkedin"></i><a target="_blank" href="https://www.linkedin.com/in/tiago-oliveira-366776a3/"> LinkedIn</a></li>
         </ul>
     </header>
   </body>
